@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Thời khóa biểu</title>
+ </head>
+ <body bgcolor="white">
+  <style>
+  h1{color:black;
+    background-color:red;
+    text-align:left;
+    border:2px solid black;
+    font-size:40px;
+    font-family:Tahoma}   
+    td{align:center}  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  background-color: red; 
+  padding:  10px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list > li {
+  position: relative;
+  margin: 5 20px;
+ }
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; 
+  padding: 10px 20px; 
+}
+
+.menu-list a:hover {
+  background-color: white; 
+  color: red;  
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: max-content;
+}
+
+.dropdown-column {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-column h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dropdown-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-column ul li {
+  margin: 10px 0;
+}
+
+.dropdown-column ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu-list li:hover .dropdown {
+  display: block; 
+}
+
+.menu-list li:hover a {
+  background-color: lightcoral;
+}
+
+.dropdown-column ul li a:hover {
+  background-color: white;
+  color: red; 
+}
+
+  </style>  
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="thoikhoabieu.html">Thời Khóa Biểu</a></li>
+      <li><a href="thethao.html">Thể Thao</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="bongda.html">Bóng Đá</a></li>
+              <li><a href="bongro.html">Bóng Rổ</a></li>
+              <li><a href="bongchuyen.html">Bóng Chuyền</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>        
+      <li><a href="giaitri.html">Giải Trí</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="nhac.html">Nhạc</a></li>
+              <li><a href="phim.html">Phim</a></li>
+              <li><a href="sach.html">Sách</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>       
+    </ul>        
+  </nav>
+<li style="font-size:30px" id="tkb"><b><mark>Thời Khóa Biểu</mark></b>
+   <table border="1" style="width: 50%;height: 100%;">
+   <caption>Thời khóa biểu (từ 04/11/2024)</caption>
+   <tr style="border:1px solid" bgcolor="lightyellow">
+    <th rowspan="2" align="center">Bộ môn</th>
+    <th rowspan="2" align="center">Giáo viên</th>
+    <th colspan="5" align="center">Thứ</th>
+   </tr>
+   <tr bgcolor="lightyellow">
+    <th align="center">Thứ 2</th>
+    <th align="center">Thứ 3</th>
+    <th align="center">Thứ 4</th>
+    <th align="center">Thứ 5</th>
+    <th align="center">Thứ 6</th>
+   </tr>
+   <tr>
+    <td>Toán</td>
+    <td>Thầy Kế</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+   </tr>
+   <tr>
+    <td>Văn</td>
+    <td>Thầy Ngọc</td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">XX</td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>Lí</td>
+    <td>Thầy Hải</td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>Hóa</td>
+    <td>Cô Oanh</td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>Ngoại ngữ</td>
+    <td>Cô Hòa</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>Tin</td>
+    <td>Cô Huế</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>Sinh</td>
+    <td>Cô Hương</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+   </tr>
+   <tr>
+    <td>Sử</td>
+    <td>Thầy Tịnh</td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>CĐ Toán</td>
+    <td>Thầy Kế</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+   </tr>
+   <tr>
+    <td>CĐ Lí</td>
+    <td>Cô Huyền</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+   </tr>
+   <tr>
+    <td>CĐ Hóa</td>
+    <td>Cô Oanh</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+   </tr>
+   <tr>
+    <td>GDĐP</td>
+    <td>Cô Oanh</td>
+    <td align="center" bgcolor="LightSkyBlue">X</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+   </table>
+  </li>
+  </body></html>

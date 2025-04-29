@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Bóng đá </title>
+ </head>
+ <body bgcolor="lightgreen">
+  <style>
+   li{font-size:20px;
+      color: white}
+   body {
+      margin: 0;
+      background-image: url('bgbongda.png');
+      background-repeat: no-repeat; 
+      background-size: cover; 
+      background-position: center; 
+      font-weight: bold}
+      {margin: 0;
+  font-family: Arial, sans-serif;
+}
+nav {
+            position: sticky;
+            top: 0; /* Khi cuộn đến top 0px, nó sẽ dính lại */
+            z-index: 1000; /* Đảm bảo nav không bị che khuất */
+        }
+.menu {
+  background-color: red; 
+  padding:  10px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list > li {
+  position: relative;
+  margin: 5 20px;
+ }
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; 
+  padding: 10px 20px; 
+}
+
+.menu-list a:hover {
+  background-color: white; 
+  color: red;  
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: max-content;
+}
+
+.dropdown-column {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-column h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dropdown-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-column ul li {
+  margin: 10px 0;
+}
+
+.dropdown-column ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu-list li:hover .dropdown {
+  display: block; 
+}
+
+.menu-list li:hover a {
+  background-color: lightcoral;
+}
+
+.dropdown-column ul li a:hover {
+  background-color: white;
+  color: red; 
+}
+
+  </style>  
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="thoikhoabieu.html">Thời Khóa Biểu</a></li>
+      <li><a href="thethao.html">Thể Thao</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="bongda.html">Bóng Đá</a></li>
+              <li><a href="bongro.html">Bóng Rổ</a></li>
+              <li><a href="bongchuyen.html">Bóng Chuyền</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>        
+      <li><a href="giaitri.html">Giải Trí</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="nhac.html">Nhạc</a></li>
+              <li><a href="phim.html">Phim</a></li>
+              <li><a href="sach.html">Sách</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>       
+    </ul>        
+  </nav>   
+  </style>
+ 
+ <h1><mark>Thông tin về Bóng Đá</mark></h1>
+ <ul style="list-style-type:square">
+ <li><h2>Lịch sử phát triển:</h2>
+  <ol type="1">
+   <li>Khởi nguồn: Bóng đá cổ đại xuất hiện ở nhiều nền văn minh, tiêu biểu là Trung Quốc với trò chơi "Cuju" thời nhà Hán (khoảng 206 TCN).</li>
+   <li>Bóng đá hiện đại: Ra đời ở Anh vào thế kỷ 19. Năm 1863, Hiệp hội bóng đá Anh (FA) được thành lập, thiết lập luật chơi chính thức.</li>
+   <li>Phát triển quốc tế:FIFA được thành lập năm 1904 tại Paris. Năm 1930, giải đấu FIFA World Cup đầu tiên được tổ chức tại Uruguay.</li>
+  </ol>  
+ </li>
+ <img src="https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2024/7/30/olympic-phap-1722306448454314200734.jpg" width="50%">
+<li><h2>Luật chơi cơ bản:</h2>
+ <ol type="1">
+  <li>Sân thi đấu:Hình chữ nhật, dài từ 90-120m, rộng 45-90m. Khu vực cầu môn rộng 7.32m, cao 2.44m.</li>
+  <li>Thời gian:90 phút (chia làm 2 hiệp, mỗi hiệp 45 phút). Thêm hiệp phụ hoặc luân lưu nếu hòa trong các giải đấu loại trực tiếp.</li>
+  <li>Cách chơi:Đưa bóng vào khung thành đối phương bằng chân, đầu hoặc thân người (trừ tay). Thủ môn là người duy nhất được dùng tay trong khu vực cấm địa.</li>
+  <li>Lỗi phổ biến:Việt vị, phạm lỗi, chơi bóng bằng tay (không phải thủ môn).</li>
+ </ol>
+</li> 
+<li><h2>Trang bị cần thiết:</h2>
+ <ol type="1"> 
+ <li>Quần áo thi đấu, giày đá bóng, tất, bảo vệ ống chân.</li>
+ <li>Bóng tiêu chuẩn có chu vi từ 68-70cm, nặng 410-450g.</li>
+</ol>
+</li>
+ <li><h2>Kỹ thuật và chiến thuật:</h2>
+ <ol type="1"> 
+ <li>Kỹ thuật cá nhân:Dẫn bóng, chuyền bóng, sút bóng, đánh đầu, tranh cướp bóng.</li>
+ <li>Chiến thuật:Phòng ngự (4-4-2, 5-3-2), tấn công (4-3-3, 3-4-3), phản công nhanh, kiểm soát bóng (Tiki-taka).</li>
+</ol>
+</li>
+<li><h2>Giải đấu lớn:</h2>
+  <ol type="1"> 
+  <li>FIFA World Cup, UEFA Champions League, Copa América, EURO, Premier League, La Liga.</li>
+</ol>
+</li>
+<li><h2>Vận động viên nổi tiếng:</h2>
+<ol type="1"> 
+<li>Huyền thoại: Pelé, Diego Maradona, Johan Cruyff.</li>
+<li>Đương đại: Lionel Messi, Cristiano Ronaldo, Neymar Jr., Kylian Mbappé.</li>
+</ol>
+</li>
+<li><h2>Trận đấu kinh điển:</h2></li>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/nQetLdj0vWA" title="MANCHESTER UNITED - MANCHESTER CITY | RONALDO BẾ TẮC - SILVA XUẤT SẮC | NGOẠI HẠNG ANH 21/22" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+</ul></body></html>

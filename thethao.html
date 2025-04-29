@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Thể thao</title>
+ </head>
+ <body bgcolor="white">
+  <style>
+  h1{color:black;
+    background-color:red;
+    text-align:left;
+    border:2px solid black;
+    font-size:40px;
+    font-family:Tahoma}   
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  background-color: red; 
+  padding:  10px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list > li {
+  position: relative;
+  margin: 5 20px;
+ }
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; 
+  padding: 10px 20px; 
+}
+
+.menu-list a:hover {
+  background-color: white; 
+  color: red;  
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: max-content;
+}
+
+.dropdown-column {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-column h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dropdown-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-column ul li {
+  margin: 10px 0;
+}
+
+.dropdown-column ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu-list li:hover .dropdown {
+  display: block; 
+}
+
+.menu-list li:hover a {
+  background-color: lightcoral;
+}
+
+.dropdown-column ul li a:hover {
+  background-color: white;
+  color: red; 
+}
+
+  </style>  
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="thoikhoabieu.html">Thời Khóa Biểu</a></li>
+      <li><a href="thethao.html">Thể Thao</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="bongda.html">Bóng Đá</a></li>
+              <li><a href="bongro.html">Bóng Rổ</a></li>
+              <li><a href="bongchuyen.html">Bóng Chuyền</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>        
+      <li><a href="giaitri.html">Giải Trí</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="nhac.html">Nhạc</a></li>
+              <li><a href="phim.html">Phim</a></li>
+              <li><a href="sach.html">Sách</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>       
+    </ul>        
+  </nav>
+<li style="font-size:30px" id="tt"><b><mark>Thể thao</mark></b></li>
+   <nav style="background-color: white; padding: 10px 20px; text-align: center">
+        <a href="bongda.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="bongda.png" width="20%"></a>
+        <a href="bongro.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="bongro.png" width="20%"></a>
+        <a href="bongchuyen.html" style="color: white; text-decoration: none; margin: 0 15px; font-size: 30px;"><img src="bongchuyen.png" width="20%"></a>
+   </nav>
+</body></html>

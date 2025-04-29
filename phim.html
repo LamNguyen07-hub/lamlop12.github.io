@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Phim </title>
+ </head>
+ <style>
+   li{font-size:20px;}
+   
+   {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+nav {
+            position: sticky;
+            top: 0; /* Khi cuộn đến top 0px, nó sẽ dính lại */
+            z-index: 1000; /* Đảm bảo nav không bị che khuất */
+        }
+.menu {
+  background-color: red; 
+  padding:  10px;
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list > li {
+  position: relative;
+  margin: 5 20px;
+ }
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; 
+  padding: 10px 20px; 
+}
+
+.menu-list a:hover {
+  background-color: white; 
+  color: red;  
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: max-content;
+}
+
+.dropdown-column {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-column h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dropdown-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-column ul li {
+  margin: 10px 0;
+}
+
+.dropdown-column ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu-list li:hover .dropdown {
+  display: block; 
+}
+
+.menu-list li:hover a {
+  background-color: lightcoral;
+}
+
+.dropdown-column ul li a:hover {
+  background-color: white;
+  color: red; 
+}
+
+  </style>  
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="thoikhoabieu.html">Thời Khóa Biểu</a></li>
+      <li><a href="thethao.html">Thể Thao</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="bongda.html">Bóng Đá</a></li>
+              <li><a href="bongro.html">Bóng Rổ</a></li>
+              <li><a href="bongchuyen.html">Bóng Chuyền</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>        
+      <li><a href="giaitri.html">Giải Trí</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="nhac.html">Nhạc</a></li>
+              <li><a href="phim.html">Phim</a></li>
+              <li><a href="sach.html">Sách</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>       
+    </ul>        
+  </nav>  
+  </style>
+  <body>
+ <li style="font-size:40px" ><b><mark>Phim </mark></b></li>
+  <ol type="1">
+   <li style="font-size:40px" >Big Mouth </li>
+     <img src="https://vcdn1-giaitri.vnecdn.net/2022/09/20/-6523-1663663049.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=8w2PMIfNbxcOGoaFyO79cA" width="900" height="536">
+     <iframe width="900" height="560" src="https://www.youtube.com/embed/3gfXTPDt2rk?si=gnP3PPZVyZP1QfO9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <li style="font-size:40px" >Hotel Del Luna</li>
+     <img src="https://media.sohuutritue.net.vn/files/huongmi/2019/08/15/hotel-de-luna-dao-nhai-dong-cung-0628.jpg">
+     <iframe width="900" height="560" src="https://www.youtube.com/embed/6Ozu_CIfgG4?si=-sy4zJeNyg09G1fw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <li style="font-size:40px" >Kimetsu No Yaiba</li>
+     <img src="https://kenh14cdn.com/zoom/600_315/pr/2024/photo1720167719268-1720167720764742984065-63855796248201.jpg" width="900" height="536">
+     <iframe width="900" height="560" src="https://www.youtube.com/embed/nKS3mF_D7dM?si=pclIHPIHcWQqnOAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+</ol></body></html>

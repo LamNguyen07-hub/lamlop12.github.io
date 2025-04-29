@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Tường Lâm-12A3</title>
+ </head>
+ <body bgcolor="white">
+  <style>
+  h1{color:white;
+    background-color:red;
+    text-align:left;
+    border:2px solid white;
+    font-size:40px;
+    font-family:Tahoma}
+ 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+.menu {
+  background-color: red; 
+  padding:  10px;
+}
+nav {
+            position: sticky;
+            top: 0; /* Khi cuộn đến top 0px, nó sẽ dính lại */
+            z-index: 1000; /* Đảm bảo nav không bị che khuất */
+        }
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.menu-list > li {
+  position: relative;
+  margin: 5 20px;
+  
+ }
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; 
+  padding: 10px 20px; 
+}
+
+.menu-list a:hover {
+  background-color: white; 
+  color: red;  
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: max-content;
+}
+
+.dropdown-column {
+  float: left;
+  margin-right: 20px;
+}
+
+.dropdown-column h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dropdown-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-column ul li {
+  margin: 10px 0;
+}
+
+.dropdown-column ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.menu-list li:hover .dropdown {
+  display: block; 
+}
+
+.menu-list li:hover a {
+  background-color: lightcoral;
+}
+
+.dropdown-column ul li a:hover {
+  background-color: white;
+  color: red; 
+}
+
+  </style>  
+  <nav class="menu">
+    <ul class="menu-list">
+      <li><a href="Nguyễn Tường Lâm-12A3.html">Home</a></li>
+      <li><a href="thoikhoabieu.html">Thời Khóa Biểu</a></li>
+      <li><a href="thethao.html">Thể Thao</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="bongda.html">Bóng Đá</a></li>
+              <li><a href="bongro.html">Bóng Rổ</a></li>
+              <li><a href="bongchuyen.html">Bóng Chuyền</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>        
+      <li><a href="giaitri.html">Giải Trí</a>
+        <div class="dropdown">
+          <div class="dropdown-column">
+            <ul>    
+              <li><a href="nhac.html">Nhạc</a></li>
+              <li><a href="phim.html">Phim</a></li>
+              <li><a href="sach.html">Sách</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>       
+    </ul>        
+  </nav>
+ <h2 style="font-size:40px" id="home">Chào mừng đến với Web của Lâm</h2>
+ <ul style="list-style-type:square">
+  <li style="font-size:30px" ><b><mark>Lai Lịch</mark></b>
+  <ol type="1">
+   <li style="font-size:20px"><u>Họ tên: <span style="font-family:Tahoma">Nguyễn Tường Lâm</span></u></li>
+   <li style="font-size:20px"><u>Lớp: 12A3</u></li>
+   <li style="font-size:20px"><u>Trường: THPT Lương Thế Vinh</u></li>
+   <li style="font-size:20px"><u>Ngày/Tháng/Năm sinh: 06/11/2007</u></li>
+   <li style="font-size:20px"><u>Quê quán: TDP 6, Quảng Phong, Ba Đồn, Quảng Bình</u></li>
+   <li style="font-size:20px"><u>Sở thích:Đọc Truyện(<a href="https://truyenqqto.com/truyen-tranh/one-piece-128-chap-1131.html" target="_blank" style="color:red">One Piece</a>),Chơi Game,Nghe Nhạc </u></li>
+   <li style="font-size:20px"><u>Thành tích: Cựu Thiếu Nhi</u></li>
+   <li style="font-size:20px"><u>Dung nhan: <a href="anhlam.jpg" target="_blank" style="color:red">Ảnh</a></u>
+   <li style="font-size:20px"><u>Liên hệ: <span style="color:blue">Faceboob:</span><a href="https://facebook.com/tuonglam2007" target="_blank" style="color:red">Nguyễn Tường Lâm</u></a></u></li></li></li></ol></li></ul></body></html>
+      
+    
